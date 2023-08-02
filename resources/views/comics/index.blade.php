@@ -4,6 +4,9 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-12">
+                <a href="{{ route('comics.create' )}}" class="btn btn-sm">Aggiungi Fumetto</a>
+            </div>
+            <div class="col-12">
                 <table class="table">
                     <thead>
                         <tr>
