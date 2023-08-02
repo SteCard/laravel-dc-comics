@@ -30,7 +30,7 @@
                                     {{ $comic->price }}
                                 </td>
                                 <td>
-                                    <a href="{{ route('comic.show', $comic->id)}}">
+                                    <a href="{{ route('comics.show', $comic->id)}}">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </td>
